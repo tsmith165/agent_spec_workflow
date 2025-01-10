@@ -1,4 +1,4 @@
-When implementing any task we should create a markdown spec with file format <TASK_NAME>-SPEC.md . This spec file will be crucial in implementing the end goal successfully as it will require multiple tasks / steps that need to be completed by an AI agent with debug help from a senior software dev.
+When implementing any task we should create a markdown spec with file format `<SUB_TASK_NAME>-SPEC.md`. This spec file will be crucial in implementing the end goal successfully as it will require multiple tasks / steps that need to be completed by an AI agent with debug help from a senior software dev.
 
 # The workflow spec should have the following sections
 

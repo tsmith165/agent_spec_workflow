@@ -19,32 +19,18 @@ This project provides a systematic approach to working with AI agents by establi
 ```
 agent_spec_workflow/
 ├── spec_templates/
-│   ├── AGENT_SPEC_TEMPLATE-RUST_PLUGIN.md
-│   └── AGENT_SPEC_TEMPLATE-NEXTJS_15.md
-├── AGENT_SPEC-SETUP.md
-├── AGENT_SPEC-START_POINT.md
-├── UPDATE_SPEC_AND_CONTINUE.md
-└── GO_TO_NEXT_STEPS.md
+│   ├── AGENT_SPEC_WORKFLOW-RUST_PLUGIN.md
+│   └── AGENT_SPEC_WORKFLOW-NEXTJS_15.md
+├── prompts/
+│   ├── START_TASK.md
+│   ├── UPDATE_SPEC_AND_CONTINUE.md
+│   └── GO_TO_NEXT_STEPS.md
+└── AGENT_SPEC_WORKFLOW.md
 ```
 
 ## Usage
 
-1. **Setup**
-
-    - Copy the appropriate template from `/spec_templates/` based on your project type
-    - Rename it to `AGENT_SPEC_TEMPLATE.md` in your project root
-    - Create a new spec file in `/specs/<TASK_NAME>/`
-
-2. **Initial Specification**
-
-    - Use `AGENT_SPEC-START_POINT.md` as your template
-    - Fill in all required sections with task details
-    - Send to the AI agent for spec creation
-
-3. **Review & Implementation**
-    - Review the generated spec with senior developers
-    - Use `GO_TO_NEXT_STEPS.md` to proceed with implementation
-    - Iterate and update using `UPDATE_SPEC_AND_CONTINUE.md`
+Utilize the `AGENT_SPEC_WORKFLOW.md` file to get started with spec template for your project and the prompts required to utilize the workflow.
 
 ## Best Practices
 
