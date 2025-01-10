@@ -18,17 +18,13 @@ This project provides a systematic approach to working with AI agents by establi
 
 ```
 agent_spec_workflow/
-├── spec_templates/           # Base templates for different project types
+├── spec_templates/
 │   ├── AGENT_SPEC_TEMPLATE-RUST_PLUGIN.md
 │   └── AGENT_SPEC_TEMPLATE-NEXTJS_15.md
-├── specs/                    # Directory for task-specific specs
-│   └── <TASK_NAME>/
-│       └── <TASK_NAME>-SPEC.md
-└── workflow/                 # Core workflow files
-    ├── AGENT_SPEC-SETUP.md
-    ├── AGENT_SPEC-START_POINT.md
-    ├── UPDATE_SPEC_AND_CONTINUE.md
-    └── GO_TO_NEXT_STEPS.md
+├── AGENT_SPEC-SETUP.md
+├── AGENT_SPEC-START_POINT.md
+├── UPDATE_SPEC_AND_CONTINUE.md
+└── GO_TO_NEXT_STEPS.md
 ```
 
 ## Usage
