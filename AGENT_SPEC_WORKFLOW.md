@@ -3,7 +3,7 @@
 1. Copy the spec template related to your project from `/spec_templates/` to the root of the project you are working on
 2. Rename the file to `AGENT_SPEC_TEMPLATE.md`
 3. Create a new markdown file with the format `<SUB_TASK_NAME>-SPEC.md` in the `/specs/<TASK_NAME>/` directory
-4. Utilize the `/prompts/AGENT_SPEC-START_POINT.md` as a template for your initial message to the AI agent
+4. Utilize the `/prompts/START_TASK.md` as a template for your initial message to the AI agent
     - Fill in all sections with all details required for the task
 5. Send the message to the AI agent and wait for the spec to be created
 6. Review the spec and make any necessary changes
